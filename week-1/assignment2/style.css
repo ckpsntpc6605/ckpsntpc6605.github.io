@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 .wrap {
-  max-width: 1200px;
+  max-width: 100%;
   margin: auto;
   height: 100vh;
 }
@@ -52,6 +52,7 @@ main h2 {
   margin-left: 10px;
 }
 .sectionBox .box {
+  max-width: 1200px;
   flex: 1 40%;
   background-color: rgb(139, 152, 168);
   height: 200px;
